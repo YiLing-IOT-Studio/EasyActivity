@@ -51,7 +51,7 @@ ul {
 }
 .tab .right {
     float: left;
-    width: 950px;
+    width: 700px;
     margin-top: 60px;
     height: 800px;
     overflow: hidden;
@@ -60,7 +60,7 @@ ul {
     background: rgba(0,0,0,0.5);
 }
 .tab .tab_right {
-    width: 950px;
+    width: 500px;
     height: 800px;
     color: #fff;
     text-align: center;
