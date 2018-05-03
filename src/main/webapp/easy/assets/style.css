@@ -21,7 +21,7 @@ ul {
 .tab .box .menus {
     width: 200px;
     height: 850px;
-    background: rgb(92,94,103);
+    background: rgb(85, 153, 125);
     float: left;
     margin-top: 60px;
     border-radius: 10px;
@@ -30,11 +30,11 @@ ul {
 .tab .box .menus li {
     width: 200px;
     height:50px;
-    background: rgb(92,94,103);
+    background: rgb(102, 150, 135);
     font-size: 20px;
     color: #fff;
     text-align: center;
-    border: 1px solid rgba(0,0,0,0.5);
+    border: 1px solid rgba(112, 170, 158, 0.5);
     line-height: 70px;
     transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -46,18 +46,18 @@ ul {
 }
 .tab .box .bg {
     height: 80px !important;
-    background: rgb(0,159,233) !important;
+    background: rgb(41, 119, 102) !important;
     line-height: 110px !important;
 }
 .tab .right {
     float: left;
-    width: 700px;
+    width: 850px;
     margin-top: 60px;
     height: 800px;
     overflow: hidden;
     margin-left: 50px;
     border-radius: 10px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(47, 170, 78, 0.5);
 }
 .tab .tab_right {
     width: 500px;
