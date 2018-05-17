@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #eee;
+        }
+        form{
+            width: 80%;
+            max-width: 650px;
+            min-width: 325px;
+            margin: 0 auto;
+            font-family: "microsoft yahei";
+            font-size:20px;
+        }
+        input{
+            display: block;
+            width: 98%;
+            height: 30px;
+            margin: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+<form action="" onsubmit="return check()">
+    <fieldset>
+        <legend>上传信息</legend>
+        <br>
+        <lable>
+            名称：<input type="text" name="name" placeholder="例如：互联网+大赛" id="name" required>
+        </lable>
+        <lable>
+            时间：<input type="date" name="date" id="time">
+        </lable>
+        <lable>
+            所属院系/校级：<input type="text" name="include" list="include">
+        </lable>
+        <datalist id="include">
+                <option>校级</option>
+                <option>计科院</option>
+                <option>艺术院</option>
+                <option>土建院</option>
+                <option>机电院</option>
+                <option>法学院</option>
+                <option>石工院</option>
+                <option>化工院</option>
+                <option>材料院</option>
+                <option>体育院</option>
+                <option>电信院</option>
+                <option>理学院</option>
+                <option>地科院</option>
+                <option>马院</option>
+                <option>外语院</option>
+                <option>经管院</option>
+            </datalist>
+        <lable>
+            负责人电话：<input type="tel" name="tel" id="tel">
+        </lable>
+        <lable>
+            详细介绍：<input type="text" name="introduce" id="introduce">
+        </lable>
+        <input type="submit" id="sub" onclick="alert('上传成功!')">
+    </fieldset>
+</form>
+<script>
+    function  check() {
+        var txt4=document.getElementById("tel");
+   }
+</script>
+</body>
+</html>
