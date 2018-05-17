@@ -7,35 +7,35 @@
 <body> 
     <div id="div3"> 
         <div id="div1"> 
-        <form name="form1" method="post" action="index.html"> 
+        <form name="form1" method="post" action="servlet/LoginServlet">
         
         <br><br> 
         <p>昵称：<input type="text" id="name" name="username"/></p> 
         <p>密码：<input type="password" id="password" name="password"/> 
-        <p>年级：<input type="radio" name="Question1" value="大一"/>大一
-                <input type="radio" name="Question1" value="大二"/>大二
-                <input type="radio" name="Question1" value="大三"/>大三
-                <input type="radio" name="Question1" value="大四"/>大四</p> 
-        <p>性别：<input  type="radio" name="Question2" value="boy"/>男 
-             <input  type="radio" name="Question2" value="girl"/>女 </p> 
+        <p>年级：<input type="radio" name="grade" value="大一"/>大一
+                <input type="radio" name="grade" value="大二"/>大二
+                <input type="radio" name="grade" value="大三"/>大三
+                <input type="radio" name="grade" value="大四"/>大四</p>
+        <p>性别：<input  type="radio" name="sex" value="男"/>男
+             <input  type="radio" name="sex" value="女"/>女 </p>
         <p>院系：
-            <input type="radio" name="Question3" value="计科院"/>计科院 
-                <input type="radio" name="Question3" value="艺术院"/>艺术院 
-                <input type="radio" name="Question3" value="土建院"/>土建院</p>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Question3" value="机电院"/>机电院 
-                <input type="radio" name="Question3" value="法学院"/>法学院 
-                <input type="radio" name="Question3" value="石工院"/>石工院</p> 
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Question3" value="化工院"/>化工院 
-                <input type="radio" name="Question3" value="材料院"/>材料院 
-                <input type="radio" name="Question3" value="体育院"/>体育院</p> 
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Question3" value="电信院"/>电信院 
-                <input type="radio" name="Question3" value="理学院"/>理学院 
-                <input type="radio" name="Question3" value="地科院"/>地科院</p> 
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Question3" value="外语院"/>外语院 
-                <input type="radio" name="Question3" value="经管院"/>经管院
-                <input type="radio" name="Question3" value="马院"/>马院 </p> 
+            <input type="radio" name="faculty" value="计科院"/>计科院
+                <input type="radio" name="faculty" value="艺术院"/>艺术院
+                <input type="radio" name="faculty" value="土建院"/>土建院</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="faculty" value="机电院"/>机电院
+                <input type="radio" name="faculty" value="法学院"/>法学院
+                <input type="radio" name="faculty" value="石工院"/>石工院</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="faculty" value="化工院"/>化工院
+                <input type="radio" name="faculty" value="材料院"/>材料院
+                <input type="radio" name="faculty" value="体育院"/>体育院</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="faculty" value="电信院"/>电信院
+                <input type="radio" name="faculty" value="理学院"/>理学院
+                <input type="radio" name="Qfaculty" value="地科院"/>地科院</p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="faculty" value="外语院"/>外语院
+                <input type="radio" name="faculty" value="经管院"/>经管院
+                <input type="radio" name="faculty" value="马院"/>马院 </p>
      <br> 
-     <a href="servlet/loginServlet"><input type="button" value="注册" onclick="alert('注册成功！')" class="log"></a>
+     <input type="submit" value="注册" onclick="alert('注册成功！')" class="log">
     </form> 
     </div> 
     </div> 
