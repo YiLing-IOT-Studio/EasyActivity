@@ -17,7 +17,7 @@
     { 
         width:cover; 
         height:900px; 
-        background-image:url("I:/学习/注册页面背景.jpg");
+        background-image:url("E:/比赛/易班轻应用/EasyActivity/src/main/webapp/easy/注册页面背景.jpg");
         margin: 0 auto;  
     } 
     p{ 
@@ -29,8 +29,8 @@
     } 
     .list {
         position: absolute;
-        top: 100px
-        right: 200px
+        top: 100px;
+        right: 200px;
         width: 300px;
         }
     
