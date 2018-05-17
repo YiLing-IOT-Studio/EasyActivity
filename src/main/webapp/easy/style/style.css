@@ -1,0 +1,32 @@
+      html,body{ 
+        margin: 0px; 
+        padding:0px; 
+    } 
+    #div1{ 
+        font-family:microsoft yahei; 
+        color:black; 
+        font-size:20px;
+        margin-left: 480px; 
+    } 
+    
+    span{ 
+        color: red; 
+        display: none; 
+    } 
+    #div3 
+    { 
+        width:cover; 
+        height:900px; 
+        background-image:url("I:/学习/注册页面背景.jpg");
+        margin: 0 auto;  
+    } 
+    p{ 
+            text-indent:40px; 
+    } 
+    .log{ 
+        display: inline-block; 
+        margin: 0 152px 2px 155px; 
+    } 
+    .form1 p{
+        margin-top: 200px;
+    } 
