@@ -10,8 +10,8 @@
         <form name="form1" method="post" action="index.html"> 
         
         <br><br> 
-        <p>昵称：<input type="text"/></p> 
-        <p>密码：<input type="password" id="box"/> 
+        <p>昵称：<input type="text" id="name" name="username"/></p> 
+        <p>密码：<input type="password" id="password" name="password"/> 
         <p>年级：<input type="radio" name="Question1" value="大一"/>大一
                 <input type="radio" name="Question1" value="大二"/>大二
                 <input type="radio" name="Question1" value="大三"/>大三
@@ -35,7 +35,7 @@
                 <input type="radio" name="Question3" value="经管院"/>经管院
                 <input type="radio" name="Question3" value="马院"/>马院 </p> 
      <br> 
-     <input type="button" value="注册" onclick="alert('注册成功！')" class="log"> 
+     <a href="servlet/loginServlet"><input type="button" value="注册" onclick="alert('注册成功！')" class="log"></a>
     </form> 
     </div> 
     </div> 

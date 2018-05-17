@@ -63,12 +63,12 @@ ul {
     overflow: hidden;
     margin-left: 50px;
     border-radius: 10px;
-    background: rgba(47, 170, 78, 0.5);
+    background: whitesmoke;
 }
 .tab .tab_right {
     width: 500px;
     height: 800px;
-    color: #fff;
+    color: black;
     text-align: center;
 
     position:relative;
