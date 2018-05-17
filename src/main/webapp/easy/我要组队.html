@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #eee;
+        }
+        form{
+            width: 98%;
+            max-width: 650px;
+            min-width: 325px;
+            margin: 0 auto;
+            font-family: "microsoft yahei";
+            font-size:20px;
+        }
+        input{
+            display: block;
+            width: 98%;
+            height: 30px;
+            margin: 10px 0;
+        }
+
+    </style>
+</head>
+<body>
+<form action="" onsubmit="return check()">
+    <fieldset>
+        <legend>组队信息</legend>
+        <lable>
+            姓名：<input type="text" name="name" placeholder="例如：王小明" id="name" required>
+        </lable>
+        <lable>
+            性别：<input type="text" name="sex" list="sex" required>
+        </lable>
+            <datalist id="sex">
+                <option>男</option>
+                <option>女</option>
+            </datalist>
+        <lable>
+            邮箱：<input type="email" name="email" id="email" required>
+        </lable>
+        <lable>
+            电话号码：<input type="tel" name="tel" pattern="^1[3-9]\d{9}$" id="tel" required>
+        </lable>
+        <lable>
+            所要组队参加的比赛：<input type="text" name="detail" id="detail" required>
+        </lable>
+        <input type="submit" id="sub" onclick="alert('组队信息发布成功！')">
+    </fieldset>
+</form>
+<script>
+    function  check() {
+        var txt3=document.getElementById("tel");
+        var txt4=document.getElementById("email");
+   }
+
+</script>
+</body>
+</html>
