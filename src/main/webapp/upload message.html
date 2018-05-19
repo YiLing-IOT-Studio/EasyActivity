@@ -29,7 +29,7 @@
     </style>
 </head>
 <body>
-<form action="" onsubmit="return check()">
+<form action="main.html" onsubmit="return check()">
     <fieldset>
         <legend>上传信息</legend>
         <br>
@@ -64,13 +64,13 @@
             负责人联系方式：<input type="tel" name="tel" id="tel">
         </lable>
         <lable>
-            详细介绍：<input type="text" name="introduce" id="introduce">
+            详细介绍：<input type="textarea" name="introduce" id="introduce">
         </lable>
         <label>
             上传相关文件：<input id="file" type="file" name="file"/>
         </label>
-        <a href="main.html"><input type="submit" id="sub" onclick="alert('上传成功!')"></a>
-
+        <input type="submit" id="sub" value="提交" onclick="alert('上传成功!')">
+        <a href="main.html"><input type="button" value="返回主页面"></a>
     </fieldset>
 </form>
 <script>
