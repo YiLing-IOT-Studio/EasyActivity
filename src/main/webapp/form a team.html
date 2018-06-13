@@ -29,7 +29,7 @@
     </style>
 </head>
 <body>
-<form action="" onsubmit="return check()">
+<form action="main.html" onsubmit="return check()">
     <fieldset>
         <legend>组队信息</legend>
         <lable>
@@ -51,7 +51,8 @@
         <lable>
             所要组队参加的比赛：<input type="text" name="detail" id="detail" required>
         </lable>
-        <a href="main.html"><input type="submit" id="sub" onclick="alert('组队信息发布成功！')"></a>
+        <input type="button" id="sub" value="提交" onclick="alert('组队信息发布成功！')">
+        <a href="team message.html"><input type="button" value="查看组队信息"></a>
     </fieldset>
 </form>
 <script>
