@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div class="black">
     <div class="container"> 
         <div class="row"> 
             <div class="liuyan"> 
                 <div id="user"> 
                     <span id="user-fa"><i class="fa fa-user"></i></span> 
-                        <span href="#" id="usename">高博宇</span> 
+                        <span href="#" id="usename">讨论区</span> 
                 </div> 
                 <div id="usermessage"> 
                     <div class="edit"> 
@@ -21,7 +25,8 @@
                     </div> 
                     <div class="content"> 
                         <input id="message" class="text-success" type="text"> </input> 
-                      <a href="discussion2.html">  <button id="btn" class="btn btn-success" onclick="sendMess()">发表</button> </a>
+                      <!-- <a href="discussion2.html">   -->
+                            <a class="btn btn-default" href="#" role="button">发表</a>
                     </div> 
                 </div>
             </div> 
@@ -29,6 +34,99 @@
             </div> 
         </div>
     </div>
-    <style type="text/css"> *{ margin: 0px; padding: 0px; } .liuyan{ margin-top: 50px; height: 500px; border: 1px solid #EEEEEE; background-color: #EEEEEE; box-shadow: 5px 5px 10px #EEEEEE; padding: 50px; } .information{ margin-top: 50px; height: 500px; border: 1px solid #EEEEEE; background-color: #EEEEEE; box-shadow: 5px 5px 10px #EEEEEE; padding: 50px; } .navbar-default{ background-color: ghostwhite; } #nav>li>a{ color: white; } #user-fa{ display: inline-block; width: 36px; height: 36px; border: 1px solid #EEEEEE; background-color: #EEEEEE; box-shadow: 1px 1px 5px ; border-radius: 18px; text-align: center; } #user-fa>i{ font-size: 20px; margin-top: 5px; } #user>a{ padding-top: 5px; text-decoration: none; } .edit{ padding: 10px; margin-top: 20px; border-bottom: 1px solid #C7254E; } .edit>a{ color: #000000; margin: 2px; } .edit>a:hover{ color:#999999; background-color: #D9EDF7; } #message{ width: 100%; height: 100px; } .btn-success{ float: right; } .div{ margin-top: 25px; margin-bottom: 25px; width: 100%; background-color: #EEEEEE; border: 1px solid #EBEBEB; border-radius: 25px; box-shadow: 1px 1px 8px #333333; color: #000000; height: auto; padding: 50px; } .h4{ width: auto; font-size: 25px; } .mess{ border: 1px solid #E4B9B9; padding: 15px; box-shadow: 2px 2px 15px #EEEEEE; font-family: "微软雅黑"; font-size: medium; } </style>
+</div>
+    <style type="text/css"> 
+    *{ margin: 0px; padding: 0px; } 
+     .liuyan{ 
+        margin-top: 50px; 
+        height: 500px; 
+        border: 1px solid #EEEEEE; 
+        background-color: rgba(238, 238, 238, 0.418); 
+        box-shadow: 5px 5px 10px #EEEEEE; 
+        padding: 50px; } 
+    /* .information{ 
+        margin-top: 50px; 
+        height: 500px; border: 1px solid #EEEEEE; 
+        background-color: #EEEEEE; 
+        box-shadow: 5px 5px 10px #EEEEEE; 
+        padding: 50px; }  */
+    .navbar-default
+    { 
+        background-color: ghostwhite; 
+    } 
+    #nav>li>a
+    { 
+        color: white; 
+    } 
+    #user-fa
+    { 
+        display: inline-block; 
+        width: 36px; 
+        height: 36px; 
+        border: 1px solid #EEEEEE; 
+        background-color: #EEEEEE; 
+        box-shadow: 1px 1px 5px ; 
+        border-radius: 18px; 
+        text-align: center; 
+        } 
+    #user-fa>i
+    { 
+        font-size: 20px; 
+        margin-top: 5px; 
+    } 
+    #user>a
+    { 
+        padding-top: 5px; 
+        text-decoration: none; 
+    } 
+    .edit
+    { 
+        padding: 10px; 
+        margin-top: 20px; 
+        border-bottom: 1px solid #C7254E; 
+    } 
+    .edit>a
+    { 
+        color: #000000; 
+        margin: 2px;
+    } 
+    /* .edit>a:hover
+    { color:#999999; 
+    background-color: #D9EDF7; 
+    }  */
+    #message
+    { 
+        width: 100%; 
+        height: 100px; 
+    } 
+    .btn-success{ float: right; } 
+    /* .div{ 
+        margin-top: 25px; 
+        margin-bottom: 25px; 
+        width: 100%; 
+        background-color: #EEEEEE; 
+         border: 1px solid #EBEBEB; 
+        border-radius: 25px; 
+        box-shadow: 1px 1px 8px #333333; 
+        color: #000000; height: auto; 
+        padding: 50px; 
+    } 
+    .h4{ width: auto; font-size: 25px; }  */
+    /* .mess{ 
+        border: 1px solid #E4B9B9; 
+        padding: 15px; box-shadow: 2px 2px 15px #EEEEEE; 
+        font-family: "微软雅黑"; font-size: medium; 
+    }   */
+    .btn-default{
+        float:right;
+        margin-top:15px;
+    }
+    .black{
+            background-size: cover;
+            margin-top: 0px;
+            height:580px;
+            background-image: url("I:/EasyActivity/src/main/webapp/e5379a518ba9c4f59bdb6036117372d0.jpeg");
+    }
+</style>
 </body>
 </html>
